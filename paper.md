@@ -21,7 +21,7 @@ bibliography: paper.bib
 
 # Summary
 
-The SkyPy project is a legacy project, open-source off-project high-quality Python package that aims to become an Astropy-affiliated package and, therefore, communes with its philosophy to support open-source software for the astronomical community. SkyPy is a tool with functionality to make end-to-end simulations and enable forward modeling and machine learning methods. Here we present the vision of the SkyPy project and we summarise the key features of the galaxy module associated with the v1.0 release, as well as the main infrastructure features, specially the SkyPy driver capabilities.
+SkyPy is an open-source Python package for forward modeling astronomical surveys. At its core is a library of empirical and physically motivated models for the redshifts, morphologies and photometric properties of galaxy populations. SkyPy also provides a command line script to run end-to-end simulations and generate synthetic catalogs; pipelines are defined using a YAML-based config syntax while task scheduling and data dependencies are handled internally. The modular design allows users to extend pipelines with external software and future releases will implement models for additional astrophysical sources to enable correlated multi-probe simulations.
 
 
 # Statement of need
