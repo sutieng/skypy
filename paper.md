@@ -77,6 +77,8 @@ SkyPy [@SkyPy2020] is being developed and maintained as an independent open-sour
 
 # Acknowledgements
 
+AA and PS acknowledge support from a Royal Society Wolfson Fellowship grant. LFB, SB, IH, and RR acknowledge support from the European Research Council in the form of a Consolidator Grant with number 681431. IH also acknowledges support from the Beecroft Trust. JPC acknowledges support granted by Agencia Nacional de Investigación y Desarrollo (ANID) DOCTORADO BECAS CHILE/2016 - 72170279.
+
 
 
 # References
