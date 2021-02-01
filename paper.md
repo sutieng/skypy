@@ -3,17 +3,59 @@ title: 'SkyPy'
 tags:
   - "software: simulations"
 authors:
-  - name: Adam Amara
+  - name: Adam Amara^[adam.amara@port.ac.uk]
     orcid: 0000-0003-3481-3491
     affiliation: 1
-  - name: Richard P. Rollins
+  - name: Lucia F. de la Bella
+    orcid: 0000-0002-1064-3400
+    affiliation: 2
+  - name: Simon Birrer
+    orcid: 0000-0003-3195-5507
+    affiliation: 3
+  - name: Sarah Bridle
+    orcid: 0000-0002-0128-1006
+    affiliation: 2
+  - name: Juan Pablo Cordero
+    orcid: 0000-0002-6625-7656
+    affiliation: 2
+  - name: Ian Harrison
+    orcid: 0000-0002-4437-0770
+    affiliation: 2
+  - name: Brian Nord
+    orcid: 0000-0001-6706-8972
+    affiliation: "4, 5, 6"
+  - name: Richard P. Rollins^[richard.rollins@manchester.ac.uk]
     orcid: 0000-0003-1291-1023
     affiliation: 2
+  - name: Philipp Sudek
+    orcid: 0000-0001-8685-2308
+    affiliation: 1
+  - name: Sut-Ieng Tam
+    orcid: 0000-0002-6724-833X
+    affiliation: 7
+  - name: Nicolas Tessore
+    orcid: 0000-0002-9696-7931
+    affiliation: 8
+  - name: Keiichi Umetsu
+    orcid: 0000-0002-7196-4822
+    affiliation: 7
 affiliations:
-  - name: Institute of Cosmology and Gravitation, University of Portsmouth, Portsmouth, P01 3FX UK
+  - name: Institute of Cosmology and Gravitation, University of Portsmouth
     index: 1
-  - name: Jodrell Bank Centre for Astrophysics, University of Manchester, Manchester, M13 9PL UK
+  - name: Jodrell Bank Centre for Astrophysics, University of Manchester
     index: 2
+  - name: Kavli Institute for Particle Astrophysics and Cosmology and Department of Physics, Stanford University
+    index: 3
+  - name: Fermi National Accelerator Laboratory
+    index: 4
+  - name: Kavli Institute for Cosmological Physics, University of Chicago
+    index: 5
+  - name: Department of Astronomy and Astrophysics, University of Chicago
+    index: 6
+  - name: Institute of Astronomy and Astrophysics, Academia Sinica
+    index: 7
+  - name: Department of Physics and Astronomy, University College London
+    index: 8
 date: 5 January 2021
 bibliography: paper.bib
 
