@@ -1,5 +1,5 @@
 ---
-title: 'SkyPy'
+title: 'SkyPy: A package for modelling the Universe'
 tags:
   - "software: simulations"
 authors:
@@ -21,6 +21,9 @@ authors:
   - name: Ian Harrison
     orcid: 0000-0002-4437-0770
     affiliation: 2
+  - name: Coleman Krawczyk
+    orcid: 0000-0001-9233-2341
+    affiliation: 1
   - name: Brian Nord
     orcid: 0000-0001-6706-8972
     affiliation: "4, 5, 6"
@@ -56,22 +59,22 @@ affiliations:
     index: 7
   - name: Department of Physics and Astronomy, University College London
     index: 8
-date: 5 January 2021
+date: 3 February 2021
 bibliography: paper.bib
 
 ---
 
 # Summary
 
-SkyPy is an open-source Python package for simulating catalogs of astronomical sources. It comprises a library of astrophysical and empirical models and a command line script to run end-to-end simulations. Pipelines are defined using a YAML-based configuration syntax, while task scheduling and data dependencies are handled internally. The modular design allows users to extend pipelines with external software.
+SkyPy is an open-source Python package for simulating the astrophysical sky. It comprises a library of physical and empirical models across a range of observables and a command line script to run end-to-end simulations. The library provides functions that sample realisations of sources and their associated properties from probability distributions. Simulation pipelines are constructed from these models using a YAML-based configuration syntax, while task scheduling and data dependencies are handled internally and the modular design allows users to interface with external software. Development is focused on software sustainability and interoperability with the goal of delivering correlated multi-probe simulations for the analysis of Stage IV survey data.
 
 
 
 # Statement of need
 
-An open-data revolution in astronomy led by past, ongoing, and future legacy surveys (e.g. Planck^[https://www.cosmos.esa.int/web/planck], DES^[https://www.darkenergysurvey.org], LIGO^[https://www.ligo.caltech.edu]) means access to data is no longer the primary barrier to research. Instead, access to increasingly sophisticated analysis methods is becoming a significant challenge. Researchers frequently need to model multiple astronomical probes and systematics to perform a statistically rigorous analysis that fully exploits the available data. In particular, likelihood-free inference and machine learning have emerged as important techniques for the next generation of surveys and both depend on realistic simulations. However, existing software is frequently closed-source, outdated, unmaintained or developed for specific projects and surveys making it unsuitable for the wider research community. As a consequence astronomers routinely expend significant effort replicating or re-developing existing code. The growing need for skill development and knowledge sharing is evidenced by a number of recent open initiatives focused on statistical and machine learning applications for astronomy  (e.g., Dark Machines^[http://darkmachines.org/], The Deep Skies Lab^[https://deepskieslab.com/], and the Cosmo-Statistics Initiative (COINS)^[https://cosmostatistics-initiative.org/projects/]).
+An open-data revolution in astronomy led by past, ongoing, and future legacy surveys (e.g. Euclid^[https://www.euclid-ec.org], the Rubin Observatory Legacy Survey of Space and Time^[https://www.lsst.org], Planck^[https://www.cosmos.esa.int/web/planck] and the Laser Interferometer Gravitational-Wave Observatory^[https://www.ligo.caltech.edu]) means access to data is no longer the primary barrier to research. Instead, access to increasingly sophisticated analysis methods is becoming a significant challenge. Researchers frequently need to model multiple astronomical probes and systematics to perform a statistically rigorous analysis that fully exploits the available data. In particular, forward modelling and machine learning have emerged as important techniques for the next generation of surveys and both depend on realistic simulations. However, existing software is frequently closed-source, outdated, unmaintained or developed for specific projects and surveys making it unsuitable for the wider research community. As a consequence astronomers routinely expend significant effort replicating or re-developing existing code. The growing need for skill development and knowledge sharing in astronomy is evidenced by a number of open initiatives focused on software (e.g., Astropy^[https://www.astropy.org], OpenAstronomy^[https://openastronomy.org]) and statistical and machine learning applications  (e.g., Dark Machines^[http://darkmachines.org], The Deep Skies Lab^[https://deepskieslab.com], and the Cosmo-Statistics Initiative (COINS)^[https://cosmostatistics-initiative.org]).
 
-SkyPy [@SkyPy2020] is being developed and maintained as an independent open-source Python package for running end-to-end simulations to enable both forward modelling and machine learning applications. By building a diverse community of domain experts with a range of expertise and fostering co-development, SkyPy will deliver simulations for a range of cosmological probes including galaxy populations, large scale structure, the cosmic microwave background, supernovae and gravitational waves that capture the cross-correlations between datasets.
+SkyPy [@SkyPy2020] is an open-source Python package for astronomical end-to-end simulations developed and maintained by a diverse community of domain experts. By fostering co-development, SkyPy provides a framework for correlated multi-probe  simulations of a range of cosmological probes including galaxy populations, large scale structure, the cosmic microwave background, supernovae and gravitational waves. Such simulations will enable forward-modelling and machine learning applications in the astronomy community, particularly in the analysis of Stage IV survey data.
 
 
 
