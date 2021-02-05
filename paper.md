@@ -1,7 +1,10 @@
 ---
 title: 'SkyPy: A package for modelling the Universe'
 tags:
-  - "software: simulations"
+  - astronomy
+  - astrophysics
+  - cosmology
+  - simulations
 authors:
   - name: Adam Amara^[adam.amara@port.ac.uk]
     orcid: 0000-0003-3481-3491
